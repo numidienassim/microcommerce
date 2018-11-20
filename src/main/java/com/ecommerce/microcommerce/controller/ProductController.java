@@ -10,11 +10,11 @@ public class ProductController {
 
 	@RequestMapping(value="/productList",method=RequestMethod.GET)
 	public String getProducts() {
-		return "Product list";
+		return "Product list Total";
 	}
 	
 	@RequestMapping(value = "/Product/{id}", method = RequestMethod.GET)
 	public String getProduct(@PathVariable int id) {
-		return "You are askink for product with id=  " + id;
+		return "You are asking for product with id=  " + id;
 	}
 }
