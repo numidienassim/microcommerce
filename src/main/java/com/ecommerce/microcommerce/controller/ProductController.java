@@ -10,7 +10,7 @@ public class ProductController {
 
 	@RequestMapping(value="/productList",method=RequestMethod.GET)
 	public String getProducts() {
-		return "Product list Total";
+		return "Product list Total Nassim";
 	}
 	
 	@RequestMapping(value = "/Product/{id}", method = RequestMethod.GET)
